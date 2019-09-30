@@ -1,1 +1,3 @@
-# rvesteinsdottir.github.io
+---
+permalink: /index.html
+---
