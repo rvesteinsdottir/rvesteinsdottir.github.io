@@ -1,7 +1,7 @@
 :root {
-  --main-color: rgb(230, 165, 80);
-  --second-color: rgb(245, 245, 197);
-  --third-color: rgb(49, 49, 126);
+    --main-color: rgb(245, 245, 197);;
+    --second-color: rgb(230, 165, 80);
+    --third-color: rgb(49, 49, 126);
 }
 
 img {

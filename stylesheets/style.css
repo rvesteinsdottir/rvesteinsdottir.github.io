@@ -1,25 +1,24 @@
 :root {
-  --main-color: rgb(230, 165, 80);
-  --second-color: rgb(245, 245, 197);
+  --main-color: rgb(245, 245, 197);;
+  --second-color: rgb(230, 165, 80);
   --third-color: rgb(49, 49, 126);
 }
 
 body {
   background-color: var(--main-color);
   text-align: center;
-  font-family: 'Noto Sans', sans-serif;
-
-  color: var(--second-color);
+  font-family: 'Lora', serif;
+  color: var(--third-color);
   margin: 0px;
   padding: 0px;
   margin-top: 100px;
   height: 100%;
   width: 100%;
-
 }
 
 h1 {
   font-size: 3em;
+  color: var(--third-color);
 }
 
 .container {
@@ -55,14 +54,14 @@ ul {
 
 a {
   text-decoration: none;
-  color: var(--third-color);
+  color: var(--second-color);
 }
 
 p a:hover {
-  background-color: var(--third-color);
+  background-color: var(--second-color);
   padding: 0 2px;
   border-radius: 5px;
-  color: var(--second-color);
+  color: var(--main-color);
 }
 
 nav ul li, footer ul li {
@@ -98,13 +97,14 @@ nav ul li:first-child {
 
 .about-container h2, .visual-container h2 {
   font-size: 1.3em;
-  color: var(--third-color);
+  color: var(--second-color);
 }
 
 .about-container p {
   font-size: 1em;
   letter-spacing: .04em;
   padding: 0 25px;
+  line-height: 1.6;
 }
 
 .visual-container ul {
@@ -128,7 +128,7 @@ nav ul li:first-child {
 }
 
 .visual-container ul li a {
-  color: var(--third-color);
+  color: var(--main-color);
 }
 
 .visual-container ul li:hover {
