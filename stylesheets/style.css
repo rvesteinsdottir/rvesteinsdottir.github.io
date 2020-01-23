@@ -123,7 +123,7 @@ nav ul li:first-child {
 .visual-container ul li {
   margin: 10px 10px;
   padding: 10px 20px;
-  background-color: var(--second-color);
+  background-color: var(--third-color);
   border-radius: 5%;
 }
 
@@ -134,7 +134,7 @@ nav ul li:first-child {
 .visual-container ul li:hover {
   padding: 10px 20px;
   border-radius: 5%;
-  background-color:  rgb(231, 199, 157);
+  background-color:  var(--second-color);
 }
 
 .footer-container ul {
